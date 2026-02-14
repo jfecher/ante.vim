@@ -22,6 +22,8 @@ syn keyword anKeywords impl match trait module export as hiding
 syn keyword anKeywords type and loop can effect handle extern
 syn keyword anKeywords or not then do via comptime var
 
+syn keyword anKeywords forall exists
+
 syn keyword anModifiers mut ref uniq excl imm
 syn keyword anModifiers own owned shared
 
