@@ -4,7 +4,7 @@ syn keyword anBool true false
 
 syn match anType '\w\@<![A-Z]\w*'
 
-syn match anOp '[+^\-*/%@=<>|?]'
+syn match anOp '[+^\-*/%@=<>|!?]'
 syn match anOp ':='
 
 syn match comment '//.*$' contains=notes,mlcmt
@@ -15,7 +15,7 @@ syn match anType '\'[a-z_]\w*'
 
 syn match anModule '\<[A-Z]\w*\.'
 
-syn keyword anKeywords if else import with for while is move
+syn keyword anKeywords if else import with for while is move self
 syn keyword anKeywords in do recur given resume pure implicit
 syn keyword anKeywords return fn opaque where derive forward
 syn keyword anKeywords impl match trait module export as hiding
