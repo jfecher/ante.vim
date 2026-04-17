@@ -4,7 +4,7 @@ syn keyword anBool true false
 
 syn match anType '\w\@<![A-Z]\w*'
 
-syn match anOp '[+^\-*/%@=<>|!?]'
+syn match anOp '[+^\-*/%@=<>|!?~]'
 syn match anOp ':='
 
 syn match comment '//.*$' contains=notes,mlcmt
