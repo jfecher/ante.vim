@@ -19,7 +19,7 @@ syn keyword anKeywords if else import with for while is move self
 syn keyword anKeywords in do recur given resume pure implicit
 syn keyword anKeywords return fn opaque where derive forward
 syn keyword anKeywords impl match trait module export as hiding
-syn keyword anKeywords type and loop can effect handle extern
+syn keyword anKeywords type and loop can effect handle extern break continue
 syn keyword anKeywords or not then do via comptime var handler
 
 syn keyword anKeywords forall exists
